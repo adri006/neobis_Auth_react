@@ -1,0 +1,28 @@
+.signup-title{
+    width: 343px;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: center;
+}
+.signup-block{
+    margin-top: 100px;
+}
+.rules{
+    text-align: left;
+    color: #767676;
+    font-size: 12px;
+    line-height: 20px;
+}
+.rules li{
+    list-style-position: inside;
+}
+.next-button{
+    margin-top: 12px;
+    height: 50px;
+    font-size: 16px;
+    background: #D7D7D7;
+    color: #767676;
+    line-height: 24px;
+    border-radius: 12px;
+    border: none;
+}

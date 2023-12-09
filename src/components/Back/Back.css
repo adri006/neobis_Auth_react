@@ -1,0 +1,9 @@
+.back__button{
+    align-items: center;
+    padding: 10px 5px;
+    margin: 32px 68px 0 24px;
+    gap: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

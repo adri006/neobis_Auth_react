@@ -1,0 +1,20 @@
+.lorby-block{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.lorby__text-block{
+    margin-top: 40px;
+    text-align: center;
+}
+.lorby__title{
+    font-size: 48px;
+    line-height: 71.28px;
+}
+.lorby__subtitle{
+    font-size: 24px;
+    line-height: 41.58px;
+}
+

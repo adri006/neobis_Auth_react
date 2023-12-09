@@ -1,0 +1,45 @@
+.login-page{
+    position: relative;
+    gap: 274px;
+}
+.login-block{
+    margin-top: 100px;
+}
+.error{ 
+    position: absolute;
+    top: 40px;
+    right: 140px;
+    width: 343px;
+    height: 54px;
+    margin-bottom: 80px;
+    border-radius: 12px;
+    border: 1px solid#EC0000;
+}
+.error__text{
+    margin: 15px 16px;
+    color: #EC0000;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.input-title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 47.50px;
+    
+}
+.button-field{
+    margin-top: 48px;
+}
+.input-block{
+    padding: 48px 0 61px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.create-acc{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
