@@ -36,7 +36,7 @@ input {
 }
 
 .button-field{
-  
+  cursor: pointer;
   width: 343px;
   height: 50px;
   border-radius: 12px;
@@ -52,5 +52,5 @@ input {
   position: absolute;
   right: 8px;
   top: 10px;
-
+  cursor: pointer;
 }

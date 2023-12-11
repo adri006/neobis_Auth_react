@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import LoginCss from "./Login.css";
 import LorbyBlock from "../LorbyBlock/LorbyBlock";
 import show_icon from "../../media/show-password.svg";
+import unshow_icon from "../../media/unshow-password.svg";
 import { Link } from 'react-router-dom';
 import SignUp from "../SignUp/SignUp";
 
@@ -14,9 +15,9 @@ function Login() {
 
   return (
     <div className="d-f-ai-c login-page">
-      <div className="error d-f">
+      {/* <div className="error d-f">
         <p className="error__text f-w-500">Неверный логин или пароль</p>
-      </div>
+      </div> */}
       <LorbyBlock />
       <div className="login-block">
         <form>
@@ -30,7 +31,7 @@ function Login() {
                 placeholder="Пароль (тоже введи)"
               />
               <img
-                src={show_icon}
+                src={passwordVisible ? unshow_icon : show_icon}
                 alt="#"
                 className="show-password"
                 onClick={togglePasswordVisibility}
