@@ -1,0 +1,29 @@
+.letter-block{
+    padding-top: 170px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.title{
+    text-align: center;
+    width: 420px;
+    font-size: 24px;
+    line-height: 35px;
+}
+.spam{
+    color: #767676;
+    text-align: center;
+    width: 310px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.spam-symbol{
+    color: #212121
+}
+.letter{
+    cursor: pointer;
+    width: 340px;
+    text-align: center;
+    padding: 13px 16px; 
+}

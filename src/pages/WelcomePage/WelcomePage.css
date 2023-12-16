@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+}
+
+.welcome-page{
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.welcome-title1{
+    color: #212121;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.welcome-page img{
+    max-width: 100%; 
+    height: auto;
+}
+.exit-button{
+    cursor: pointer;
+}
+
+.modal{
+    position: absolute;
+    
+}
