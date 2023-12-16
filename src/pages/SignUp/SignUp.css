@@ -26,3 +26,25 @@
     border-radius: 12px;
     border: none;
 }
+
+.green{
+    color: #1BA228;
+}
+
+.red{
+    color: #EC0000;
+}
+
+.button-field.valid {
+    background: #292929;
+}
+  
+.button-field.invalid {
+    color: #767676;
+    background-color: #D7D7D7;
+  }
+
+.pass-error{
+    font-size: 12px;
+    line-height: 20px;
+}
