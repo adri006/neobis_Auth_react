@@ -25,7 +25,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/enter" element={<WelcomePage logout={logout} currentUser={userLogged.currentUser}/>} /> 
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/conf-email" element={<Confirm />} />
         </Routes>
